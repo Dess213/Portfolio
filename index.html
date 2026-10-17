@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dennis Minao | IT Student Portfolio</title>
+  <meta name="description" content="Portfolio of Dennis Minao, an Information Technology student learning web development." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo"><img class="logo-mark" src="image/828506198_2113339959271285_9103737070838676011_n (1).jpg" alt="" />Dennis Minao</a>
+      <button class="settings-btn" id="settingsBtn" aria-label="Open settings" aria-expanded="false">&#9881;</button>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <div class="hero-id">
+            <img src="image/828506198_2113339959271285_9103737070838676011_n (1).jpg"
+                 alt="Dennis Minao profile picture"
+                 class="avatar" />
+            <p class="headline">Aspiring Web Developer | IT Student</p>
+          </div>
+
+          <h1><span>Dennis</span> <span>Minao</span></h1>
+
+          <p class="intro">
+            Hi, I’m Dennis Minao, an Information Technology student who is passionate about
+            learning web development, exploring new technologies, and building useful projects.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="editor" role="img" aria-label="A code window describing Dennis: IT student at Cebu Eastern College, learning HTML, CSS, JavaScript, PHP, MySQL, Flutter and Dart, looking for IT internships.">
+          <div class="editor-bar"><i></i><i></i><i></i><span>profile.js</span></div>
+          <pre class="code" aria-hidden="true"><span class="ln" style="--n:16;--i:0"><b class="k">const</b> dennis <b class="p">=</b> <b class="p">{</b></span>
+<span class="ln" style="--n:23;--i:1">  <b class="n">name</b><b class="p">:</b> <b class="s">"Dennis Minao"</b><b class="p">,</b></span>
+<span class="ln" style="--n:33;--i:2">  <b class="n">school</b><b class="p">:</b> <b class="s">"Cebu Eastern College"</b><b class="p">,</b></span>
+<span class="ln" style="--n:36;--i:3">  <b class="n">program</b><b class="p">:</b> <b class="s">"Information Technology"</b><b class="p">,</b></span>
+<span class="ln" style="--n:27;--i:4">  <b class="n">status</b><b class="p">:</b> <b class="s">"still learning"</b><b class="p">,</b></span>
+<span class="ln" style="--n:13;--i:5">  <b class="n">learning</b><b class="p">:</b> <b class="p">[</b></span>
+<span class="ln" style="--n:31;--i:6">    <b class="s">"HTML &amp; CSS"</b><b class="p">,</b> <b class="s">"JavaScript"</b><b class="p">,</b></span>
+<span class="ln" style="--n:36;--i:7">    <b class="s">"PHP &amp; MySQL"</b><b class="p">,</b> <b class="s">"Flutter &amp; Dart"</b><b class="p">,</b></span>
+<span class="ln" style="--n:4;--i:8">  <b class="p">],</b></span>
+<span class="ln" style="--n:28;--i:9">  <b class="n">seeking</b><b class="p">:</b> <b class="s">"IT internships"</b><b class="p">,</b></span>
+<span class="ln" style="--n:2;--i:10"><b class="p">};</b></span>
+<span class="ln caret-line" style="--i:11"><b class="caret"></b></span></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="lead">
+              I am an Information Technology student at <strong>Cebu Eastern College</strong>,
+              continuously learning programming, web development, and information technology.
+            </p>
+            <p>
+              I am still early in my journey, so I focus on building small projects, learning from
+              mistakes, and improving a little each time. I am preparing for internships and
+              entry-level opportunities in IT.
+            </p>
+
+            <h3 class="mini-title">Interests</h3>
+            <ul class="chips">
+              <li>Web development</li>
+              <li>Mobile applications</li>
+              <li>Learning new technologies</li>
+            </ul>
+          </div>
+
+          <div class="skills">
+            <h3 class="mini-title">Where my skills are right now</h3>
+
+            <ul class="skill-list">
+              <li class="skill">
+                <span class="skill-name">HTML and CSS</span>
+                <span class="level">Comfortable</span>
+                <span class="meter" data-level="4"><i></i><i></i><i></i><i></i><i></i></span>
+              </li>
+              <li class="skill">
+                <span class="skill-name">JavaScript</span>
+                <span class="level">Basic</span>
+                <span class="meter" data-level="2"><i></i><i></i><i></i><i></i><i></i></span>
+              </li>
+              <li class="skill">
+                <span class="skill-name">C++</span>
+                <span class="level">Beginner</span>
+                <span class="meter" data-level="1"><i></i><i></i><i></i><i></i><i></i></span>
+              </li>
+              <li class="skill">
+                <span class="skill-name">Flutter and Dart</span>
+                <span class="level">Beginner</span>
+                <span class="meter" data-level="1"><i></i><i></i><i></i><i></i><i></i></span>
+              </li>
+              <li class="skill">
+                <span class="skill-name">Troubleshooting and problem-solving</span>
+                <span class="level">Basic</span>
+                <span class="meter" data-level="2"><i></i><i></i><i></i><i></i><i></i></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-sub">Classwork, practice projects, and school projects, each labeled with where it really stands.</p>
+
+        <div class="project-grid">
+
+          <article class="project-card featured">
+            <div class="preview"><img src="image/Screenshot 2026-10-17 182913.png" alt="Start screen of BAYANI 3D: Heroic Arena" loading="lazy" /></div>
+            <div class="card-body">
+              <span class="status ongoing">Group project</span>
+              <h3>BAYANI 3D: Heroic Arena</h3>
+              <p>A browser-based Filipino typing game where you type hero names to lock on to and defeat zombie enemies across waves.</p>
+              <dl class="facts">
+                <dt>My part</dt>
+                <dd>Group member. <em>(Audio Designer.)</em></dd>
+                <dt>Built with</dt>
+                <dd><ul class="tech"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Three.js</li></ul></dd>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="preview"><img src="image/Screenshot 2026-10-17 185235.png" alt="Screenshot of the CrimeWatch Mobile App" loading="lazy" /></div>
+            <div class="card-body">
+              <span class="status ongoing">Practice project</span>
+              <h3>CrimeWatch Mobile App</h3>
+              <p>A Flutter practice project focused on crime reporting and crime information.</p>
+              <dl class="facts">
+                <dt>My part</dt>
+                <dd>Built the report screen.</dd>
+                <dt>Built with</dt>
+                <dd><ul class="tech"><li>Flutter</li><li>Dart</li></ul></dd>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="preview"><img src="image/Screenshot 2026-10-17 194633.png" alt="Screenshot of the Roblox game Survive The Madness" loading="lazy" /></div>
+            <div class="card-body">
+              <span class="status ongoing">Practice project</span>
+              <h3>Survive The Madness</h3>
+              <p>A Roblox game development project focused on survival gameplay, challenging obstacles, and creating an immersive gaming experience for players.</p>
+              <dl class="facts">
+                <dt>My part</dt>
+                <dd>Created the gun and the spawn.</dd>
+                <dt>Built with</dt>
+                <dd><ul class="tech"><li>Roblox Lua</li></ul></dd>
+              </dl>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-sub">I'm open to internships and entry-level opportunities. Feel free to reach out.</p>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <dl class="contact-list">
+              <dt>Email</dt>
+              <dd><a href="mailto:gddd2004@gmail.com">gddd2004@gmail.com</a></dd>
+
+              <dt>Facebook</dt>
+              <dd><a href="https://web.facebook.com/dennis.minao.3" target="_blank" rel="noopener noreferrer">Dennis Minao</a></dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Dennis Minao.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+
+  <aside class="settings-panel" id="settingsPanel" aria-hidden="true">
+    <h3>Settings</h3>
+
+    <label for="themeSelect">Theme</label>
+    <select id="themeSelect">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+
+    <label for="accentSelect">Accent color</label>
+    <select id="accentSelect">
+      <option value="amber">Gold</option>
+      <option value="blue">Blue</option>
+      <option value="teal">Teal</option>
+      <option value="rose">Rose</option>
+    </select>
+
+    <label for="fontRange">Text size</label>
+    <input type="range" id="fontRange" min="90" max="120" step="5" value="100" />
+
+    <button class="btn btn-small btn-outline" id="resetSettings" type="button">Reset</button>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
